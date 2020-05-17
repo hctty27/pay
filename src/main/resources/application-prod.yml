@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: pay
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/pay
+    username: root
+    password: hc2020mysql
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: hc2020redis
+    database: 5
+url:
+  return: http://hctty.com:8080/cg
+  notify: http://hctty.com:8080/yb
