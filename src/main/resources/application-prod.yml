@@ -7,11 +7,11 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/pay
     username: root
-    password: hc2020mysql
+    password: 
   redis:
     host: 127.0.0.1
     port: 6379
-    password: hc2020redis
+    password: 
     database: 5
 url:
   return: http://hctty.com:8080/cg
